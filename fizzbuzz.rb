@@ -1,4 +1,4 @@
-def fizbuzz(x)
+def fizzbuzz(x)
   if x%3==0 && x%5==0
     puts "fizzbuzz"
   elsif x%3==0
@@ -7,3 +7,5 @@ def fizbuzz(x)
     puts "buzz"
   end
 end
+
+fizzbuzz(15)
